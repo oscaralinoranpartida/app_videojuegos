@@ -1,4 +1,4 @@
-import{a as e,i as t,n,o as r,r as i}from"./index-x51C_nv0.js";var a=r(e(),1),o=n(),s=({onSearch:e,onSearchEnter:n})=>{let{pathname:r}=t(),s=e=>r===e,c=(0,a.useRef)(null);return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(`style`,{children:`
+import{a as e,i as t,n,o as r,r as i}from"./index-Dck1V7BO.js";var a=r(e(),1),o=n(),s=({onSearch:e,onSearchEnter:n})=>{let{pathname:r}=t(),s=e=>r===e,c=(0,a.useRef)(null);return(0,o.jsxs)(o.Fragment,{children:[(0,o.jsx)(`style`,{children:`
           .navegacion .item {
             padding: 0.5rem 1rem;
             transition: all 0.2s ease;
