@@ -1,6 +1,6 @@
 import "./styles.css";
 import Header from "./Components/Header";
-import { usePlayStationGames } from "../src/Components/Custom/usePlaystationGames";
+import { usePlayStationGames } from "./Components/Custom/usePlaystationGames";
 import { useState } from "react";
 import { useFavorites } from "./context/FavoriteGameContext";
 
@@ -204,7 +204,8 @@ const PlayStation = () => {
                   <h3>Plataformas</h3>
 
                   <div className="plataformas-lista">
-                    {game.parent_platforms?.length > 0 ? (
+                    {game.parent_platforms &&
+                    game.parent_platforms.length > 0 ? (
                       game.parent_platforms.map(({ platform }) => (
                         <span key={platform.id} className="plataforma">
                           {platform.name}

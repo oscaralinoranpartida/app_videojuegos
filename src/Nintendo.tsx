@@ -203,7 +203,8 @@ const Nintendo = () => {
                   <h3>Plataformas</h3>
 
                   <div className="plataformas-lista">
-                    {game.parent_platforms?.length > 0 ? (
+                    {game.parent_platforms &&
+                    game.parent_platforms.length > 0 ? (
                       game.parent_platforms.map(({ platform }) => (
                         <span key={platform.id} className="plataforma">
                           {platform.name}
